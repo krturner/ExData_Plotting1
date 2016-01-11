@@ -11,5 +11,4 @@ lines(finaldata$Date, finaldata$Sub_metering_3, col='blue')
 legend('topright',c('Sub_metering_1', 'Sub_metering_2','Sub_metering_3'), border='black', col=c('black','red','blue'), lty=c(1,1))
 
 #Save the plot to a .png file 
-dev.copy(png, 'Plot3.png') 
 dev.off() 
